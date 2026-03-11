@@ -6,8 +6,6 @@ Este projeto tem como objetivo analisar uma base de dados de transações financ
 
 A análise foi realizada utilizando consultas analíticas com agregações, CTEs e window functions.
 
----
-
 # 📊 Base de Dados
 
 O dataset contém informações sobre:
@@ -114,24 +112,8 @@ Análise do campo **MCC (Merchant Category Code)** para identificar setores mais
 # 📊 Principais Insights
 
 - Uma pequena parcela de clientes concentra grande parte da movimentação financeira.
-- A maior parte das transações ocorre em um conjunto limitado de categorias de estabelecimento (MCC).
-- Foram identificadas transações significativamente acima do padrão médio de determinados clientes.
+- A maior parte das transações e do valor gasto ocorre em um conjunto limitado de categorias de estabelecimento (MCC).
 - Alguns períodos apresentam aumentos abruptos de movimentação financeira.
-- O comportamento transacional apresenta padrões temporais relativamente estáveis, com pequenas variações ao longo do tempo.
+- Foram identificadas transações significativamente acima do padrão médio de determinados clientes.
 
 ---
-
-# 🚀 Possíveis Melhorias
-
-Este projeto pode ser expandido com:
-
-- Modelos de detecção de fraude com Machine Learning
-- Visualizações em Power BI ou Python
-- Análise de séries temporais
-- Clusterização de clientes por comportamento de consumo
-
----
-
-# 👨‍💻 Autor
-
-Projeto desenvolvido como prática de SQL para análise de dados e preparação para processos seletivos na área de Ciência de Dados.
